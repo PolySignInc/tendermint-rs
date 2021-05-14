@@ -30,7 +30,8 @@ all-features = true
 rustdoc-args = ["--cfg", "docsrs"]
 
 [lib]
-crate-type = ["cdylib", "rlib"]
+# crate-type = ["cdylib", "rlib"]
+crate-type = ["lib"]
 
 [dependencies]
 anomaly = "0.2"
