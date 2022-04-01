@@ -1,4 +1,4 @@
-FROM alpine:3.12.1
+FROM alpine:3.13.9
 LABEL maintainer="hello@informal.systems"
 
 ENV HOME=/gaiad
