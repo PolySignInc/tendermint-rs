@@ -1,4 +1,4 @@
-FROM alpine:3.12.1
+FROM alpine:3.12.12
 LABEL maintainer="hello@informal.systems"
 
 ENV TMHOME=/tendermint
